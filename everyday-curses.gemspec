@@ -19,9 +19,9 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ['lib']
 
-  spec.add_development_dependency 'bundler', '~> 1.10', '>= 1.10.4'
-  spec.add_development_dependency 'rake', '~> 10.4'
+  spec.add_development_dependency 'bundler', '~> 2.0'
+  spec.add_development_dependency 'rake', '~> 12.3'
 
-  spec.add_dependency 'curses', '~> 1.0', '>= 1.0.1'
-  spec.add_dependency 'everyday-cli-utils', '~> 1.8', '>= 1.8.6'
+  spec.add_dependency 'curses', '~> 1.3', '>= 1.3.1'
+  spec.add_dependency 'everyday-cli-utils', '~> 1.8', '>= 1.8.7.2'
 end
